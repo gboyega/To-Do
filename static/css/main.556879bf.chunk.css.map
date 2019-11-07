@@ -1,0 +1,1 @@
+{"version":3,"sources":["styles.css"],"names":[],"mappings":"AAIA,YAHI,iBAMJ,CAEA,gBACI,oBACJ","file":"main.556879bf.chunk.css","sourcesContent":[".body{\r\n    text-align: center;\r\n}\r\n\r\n.main{\r\n    display: inline-block;\r\n    text-align: center;\r\n}\r\n\r\n.toDomain{\r\n    display: inline-block;\r\n}\r\n\r\n\r\n"]}
