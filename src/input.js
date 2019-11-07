@@ -1,9 +1,10 @@
 import React from "react";
-// import "./styles.css";
+import Button from "react-bootstrap/Button"
+import Card from "react-bootstrap/Card"
 
 const item = (x) => {
     return(
-            <li className="todo-li">{x}</li>
+        <Card body bg="info" text="white" style={{ width: '18rem'}} className="m-2">{x}</Card>
     )
 }
 
@@ -31,11 +32,8 @@ class Input extends React.Component{
         return(
             <div className="toDomain">
                 <input type="text" placeholder="To-Do" id={this.props.id} />
-                <button onClick={this.handleClick}>Add To-do</button>
-                <ul>
-                    {this.state.toDoItem}
-                </ul>
-               
+                <Button variant="info" onClick={this.handleClick} className="m-2">Add To-do</Button>
+                {this.state.toDoItem}
             </div>
         )
     }
