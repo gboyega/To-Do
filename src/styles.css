@@ -1,0 +1,25 @@
+.body{
+    text-align: center;
+}
+
+.main{
+    display: inline-block;
+    width: 80vw;
+    text-align: center;
+}
+
+.toDomain{
+    display: inline-block;
+    width: 80%;
+}
+
+.todo-li{
+    width:80%;
+    text-align: start;
+    margin: 10px;
+}
+
+input{
+    margin: 5px;
+}
+
